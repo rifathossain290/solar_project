@@ -58,8 +58,18 @@ ul {
     float: left;
     padding: 0 15px;
 }
+.col-5 {
+    width: 41.65%;
+    float: left;
+    padding: 0 15px;
+}
 .col-6 {
     width: 50%;
+    float: left;
+    padding: 0 15px;
+}
+.col-7 {
+    width: 58.31%;
     float: left;
     padding: 0 15px;
 }
@@ -87,6 +97,30 @@ a.custom-btn {
     color: #fff;
     padding: 17px 30px;
     display: inline-block;
+    position: relative;
+}
+a.custom-btn span {
+    position: relative;
+    z-index: 2;
+    transition: all .3s ease 0s;
+}
+a.custom-btn:hover span {
+    color: #07B569;
+}
+a.custom-btn::before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    background: #fff;
+    top: 0;
+    right: 0;
+    transition: all .3s ease 0s;
+}
+a.custom-btn:hover::before {
+    width: 100%;
+    right: auto;
+    left: 0;
 }
 
 /* header area start */
@@ -156,9 +190,29 @@ nav {
 .about-img img {
     width: 100%;
 }
+.about-content {
+    margin-left: 60px;
+    margin-top: 26px;
+    padding-right: 70px;
+}
 .about-content h2 {
     font-size: 36px;
     font-weight: 400;
-    margin: 35px 0;
+    margin-bottom: 26px;
     color: #1B1B1B;
+}
+.about-content p {
+    color: #5F5F5F;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+
+/* about area custom btn */
+.about-content .custom-btn {
+    transition: all .3s ease 0s;
+}
+.about-content .custom-btn:hover {
+    box-shadow: 0 20px 30px 0 rgba(0,0,0,0.2);
 }
