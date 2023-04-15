@@ -24,70 +24,7 @@ ul {
     padding: 0;
     list-style: none;
 }
-.fix {
-    overflow: hidden;
-}
-.f-left {
-    float: left;
-}
-.d-none {
-    display: none;
-}
-.container {
-    width: 1170px;
-    margin: auto;
-}
-.row {
-    margin-left: -15px;
-    margin-right: -15px;
-}
 
-/* columns measurement */
-.col-2 {
-    width: 16.66%;
-    float: left;
-    padding: 0 15px;
-}
-.col-3 {
-    width: 25%;
-    float: left;
-    padding: 0 15px;
-}
-.col-4 {
-    width: 33.33%;
-    float: left;
-    padding: 0 15px;
-}
-.col-5 {
-    width: 41.65%;
-    float: left;
-    padding: 0 15px;
-}
-.col-6 {
-    width: 50%;
-    float: left;
-    padding: 0 15px;
-}
-.col-7 {
-    width: 58.31%;
-    float: left;
-    padding: 0 15px;
-}
-.col-8 {
-    width: 66.66%;
-    float: left;
-    padding: 0 15px;
-}
-.col-10 {
-    width: 83.33%;
-    float: left;
-    padding: 0 15px;
-}
-.col-12 {
-    width: 100%;
-    float: left;
-    padding: 0 15px;
-}
 
 /* common btn */
 a.custom-btn {
@@ -215,4 +152,28 @@ nav {
 }
 .about-content .custom-btn:hover {
     box-shadow: 0 20px 30px 0 rgba(0,0,0,0.2);
+}
+
+
+/* service area start */
+
+.service-area {
+    padding-bottom: 118px;
+}
+.single-service img {
+    margin-bottom: 20px;
+}
+.service-title {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.single-service p {
+    color: #7C7C7C;
+    line-height: 30px;
+    padding: 0 10px;
+}
+.single-service p {
+    color: #7C7C7C;
+    line-height: 30px;
+    padding: 0 10px;
 }
