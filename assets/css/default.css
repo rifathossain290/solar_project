@@ -29,6 +29,10 @@
     margin-right: -15px;
 }
 
+.no-gutters>[class*=col-]{
+    padding-right:0;padding-left:0
+}
+
 /* columns measurement */
 .col-2 {
     width: 16.66%;
